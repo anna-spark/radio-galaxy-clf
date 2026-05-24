@@ -1,0 +1,24 @@
+# Data — download from https://doi.org/10.5281/zenodo.7645530
+FITS/
+data/
+data_*/
+results/
+
+# Trained model checkpoints
+models/
+*.h5
+*.keras
+
+# TensorBoard logs
+lr_logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+.venv/
